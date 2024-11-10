@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem; /* Default padding */
+    padding-top: 1rem; /* Adjust for responsiveness */
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 1.5rem; /* Gap between navigation items */
+    font-size: 1.5rem; /* Larger text */
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #00bcd4; /* Teal color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #1e90ff; /* Blue color on hover */
+  }
+  

@@ -1,0 +1,83 @@
+.about-page {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 1rem; /* Mobile padding */
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 2rem auto; /* Center alignment */
+    background-color: #2d2d2d; /* Container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem; /* Padding for larger screens */
+  }
+  
+  .about-section-title {
+    color: #00bcd4; /* Teal color */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: 600;
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  .about-description,
+  .education-subtext,
+  .languages-list li,
+  .hobbies-list li {
+    font-size: 0.875rem; /* Smaller font */
+    margin-top: 0.5rem; /* Space above */
+    line-height: 1.6; /* Readable line height */
+  }
+  
+  .education-section {
+    margin-bottom: 2rem; /* Space below */
+  }
+  
+  .education-list {
+    margin-top: 1rem; /* Space above list */
+  }
+  
+  .education-item {
+    margin-bottom: 1.5rem; /* Space between items */
+  }
+  
+  .education-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem; /* Space below title */
+  }
+  
+  .education-detail {
+    font-size: 0.9rem; /* Medium font */
+    margin-bottom: 0.25rem; /* Space below */
+  }
+  
+  .certifications-section {
+    margin-top: 1.5rem; /* Space above */
+  }
+  
+  .certifications-title {
+    color: #00bcd4;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; /* Space below */
+  }
+  
+  .certifications-list li {
+    margin-bottom: 0.5rem; /* Space between items */
+  }
+  
+  .languages-hobbies-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; /* Space between columns */
+  }
+  
+  .languages-section,
+  .hobbies-section {
+    flex: 1; /* Equal width */
+  }
+  
+  .languages-list,
+  .hobbies-list {
+    margin-top: 0.5rem; /* Space above lists */
+  }
+  
